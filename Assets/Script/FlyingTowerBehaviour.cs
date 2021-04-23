@@ -8,15 +8,17 @@ public class FlyingTowerBehaviour : MonoBehaviour
     public Vector2Int gridSize = Vector2Int.one;
     public bool towerIsPlaced;
     
-    public void SetTrancparent (bool available)
+    public void SetTrancparent (string color)
     {
         for (int i = 0; i < mainRenderer.Length; i++)
         {
-            if (available == true)
+            if (color == "Green")
+            {
                 mainRenderer[i].material.color = Color.green;
+            }
             else mainRenderer[i].material.color = Color.red;
         }
-    }
+    }    
 
     public void SetNormal ()
     {

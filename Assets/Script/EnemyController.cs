@@ -39,8 +39,7 @@ public class EnemyController : MonoBehaviour
             {
                 currentWaypoint++;
                 lastWaypointSwitchTime = Time.time;
-
-                //transform.LookAt(waypoints[currentWaypoint + 1]);
+                
                 RotateIntoMoveDirection();  
             }
             else
@@ -62,14 +61,5 @@ public class EnemyController : MonoBehaviour
 
         Quaternion rotation = Quaternion.LookRotation(newDirection);
         transform.rotation = rotation;
-    }
-
-    //private void OnTriggerEnter(Collider other)
-    //{
-    //    if (other.CompareTag("Endpoint"))
-    //    {
-    //        Destroy(gameObject);
-    //        //HP
-    //    }
-    //}
+    }    
 }

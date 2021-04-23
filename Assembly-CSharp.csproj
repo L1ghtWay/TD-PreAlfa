@@ -70,16 +70,18 @@
     <Compile Include="Assets\Script\EnemyController.cs" />
     <Compile Include="Assets\Script\EnemyCreator.cs" />
     <Compile Include="Assets\Script\FlyingTowerBehaviour.cs" />
+    <Compile Include="Assets\Script\GameManagerBehaviour.cs" />
     <Compile Include="Assets\Script\GroundGrid.cs" />
     <Compile Include="Assets\Script\Scriptable objects\Enemy.cs" />
     <Compile Include="Assets\Script\Scriptable objects\Tower.cs" />
     <Compile Include="Assets\Script\TowerController.cs" />
-    <Compile Include="Assets\Script\TowerCreate.cs" />
+    <Compile Include="Assets\Script\TowerCreator.cs" />
     <Compile Include="Assets\Script\TowerDisplay.cs" />
-    <Compile Include="Assets\Script\WorldController.cs" />
     <None Include="Assets\TowerDefence_Vsquad\INFO\Info.txt" />
     <None Include="Assets\AurynSky\Dungeon Pack\READ ME.txt" />
+    <None Include="Assets\Polytope Studio\Lowpoly Medieval Characters\Sources\Shaders\PT_Medieval_Armors_Shader_PBR.shader" />
     <None Include="Assets\TowerDefence_Vsquad\Materials\Scene\sky.shader" />
+    <None Include="Assets\Polytope Studio\Lowpoly Medieval Characters\Sources\Shaders\PT_Medieval_Armors_Shader_Toon.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

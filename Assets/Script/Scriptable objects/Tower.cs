@@ -14,6 +14,4 @@ public class Tower : ScriptableObject
 
     public float range;
     public float attackSpeed;
-
-
 }
